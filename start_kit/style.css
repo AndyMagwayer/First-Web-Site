@@ -82,3 +82,41 @@ a {
     border: none;
     cursor: pointer;
 }
+
+
+/* banner */
+.banner {
+    padding: 100px 0;
+
+}
+
+.banner .block {
+    border: 3px solid #C4C4C4;
+    text-align: center;
+    padding: 60px 0;
+
+}
+
+
+.banner .block .title {
+    font-size: 36px;
+    font-family: 'Playfair Display';
+    font-weight: 500;
+
+}
+
+.banner .block .line {
+    width: 130px;
+    background: #fff;
+    height: 1px;
+    margin: 40px auto;
+
+}
+
+
+.banner .block .text {
+    font-size: 16px;
+    width: 733px;
+    margin: 0 auto 50px;
+    line-height: 24px;
+}
