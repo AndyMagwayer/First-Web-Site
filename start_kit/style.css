@@ -120,3 +120,48 @@ a {
     margin: 0 auto 50px;
     line-height: 24px;
 }
+
+/* /* footer * */
+
+.footer {
+    background-color: #998431;
+    padding: 50px 0;
+
+}
+
+.footer .top {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    gap: 60px;
+
+}
+
+.footer .top .link{
+font-size: 14px;
+}
+
+.footer .bottom{
+display: flex;
+border-bottom:  1px solid #fff;
+justify-content: center;
+}
+
+.footer .bottom .item{
+padding: 20px 60px;
+border-right: 1px solid #fff;
+}
+
+.footer .bottom .item:nth-child(4) {
+border-right: none ;
+
+}
+
+
+.footer .bottom .item .link{
+font-weight: 14px;
+font-weight: 600;
+text-transform: uppercase;
+}
